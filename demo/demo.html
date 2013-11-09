@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>jQuery.page-scroll Demo</title>
+        <link rel="stylesheet" href="../jquery.page-scroll.min.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="../jquery.page-scroll.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#page-scroll-container').pageScroll({animateDuration: 1000});
+            });
+        </script>
+    </head>
+    <body>
+        <div id="page-scroll-container">
+            <div class="page-scroll-page"><h1>Page 1</h1></div>
+            <div class="page-scroll-page"><h1>Page 2</h1></div>
+            <div class="page-scroll-page"><h1>Page 3</h1></div>
+        </div>
+    </body>
+</html>
